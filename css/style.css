@@ -2056,3 +2056,424 @@ a {
     }
 
 }
+
+
+
+/* ============================================
+   CUPONERAS - INDRA STYLO
+============================================ */
+
+.indra-cuponeras {
+    padding: 90px 6%;
+    background: linear-gradient(
+        180deg,
+        #fffafc 0%,
+        #f8eff5 100%
+    );
+    color: #392a37;
+}
+
+/* TÍTULO PRINCIPAL */
+
+.indra-titulo {
+    max-width: 750px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.indra-etiqueta {
+    display: block;
+    color: #a15a86;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.indra-titulo h2 {
+    font-size: clamp(32px, 5vw, 52px);
+    font-weight: 700;
+    color: #53334f;
+    margin-bottom: 18px;
+}
+
+.indra-titulo p {
+    color: #776873;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* CONTENEDORES */
+
+.indra-bloque {
+    max-width: 1150px;
+    margin: 0 auto 45px;
+    padding: 40px;
+    background: #ffffff;
+    border: 1px solid #eedce8;
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(93, 50, 82, 0.07);
+}
+
+.indra-bloque-titulo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.indra-icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #f4e5f0;
+    color: #9e5d89;
+    font-size: 23px;
+}
+
+.indra-bloque-titulo span {
+    color: #a15a86;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.indra-bloque-titulo h3 {
+    color: #51344d;
+    font-size: 29px;
+    margin: 5px 0 0;
+}
+
+.indra-descripcion {
+    margin-bottom: 26px;
+    color: #776873;
+    line-height: 1.7;
+}
+
+/* TABLAS DE PRECIOS */
+
+.indra-tabla-scroll {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 14px;
+    border: 1px solid #eadbe5;
+}
+
+.indra-tabla {
+    width: 100%;
+    min-width: 570px;
+    border-collapse: collapse;
+    background: white;
+    text-align: left;
+}
+
+.indra-tabla thead {
+    background: #734b6b;
+    color: white;
+}
+
+.indra-tabla th,
+.indra-tabla td {
+    padding: 18px 20px;
+    font-size: 14px;
+}
+
+.indra-tabla thead th {
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.indra-tabla tbody tr {
+    border-bottom: 1px solid #f0e4ed;
+    transition: background 0.2s ease;
+}
+
+.indra-tabla tbody tr:last-child {
+    border-bottom: none;
+}
+
+.indra-tabla tbody tr:hover {
+    background: #fcf4f9;
+}
+
+.indra-tabla td:first-child {
+    font-weight: 600;
+    color: #51344d;
+}
+
+.indra-tabla td:not(:first-child) {
+    color: #77506d;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* BOTONES */
+
+.indra-boton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 25px;
+    padding: 15px 25px;
+    background: #804e74;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.indra-boton:hover {
+    background: #603657;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(90, 45, 80, 0.18);
+}
+
+/* ============================================
+   PAQUETE INDRA BIENESTAR
+============================================ */
+
+.indra-bienestar {
+    max-width: 1150px;
+    margin: 60px auto 35px;
+    overflow: hidden;
+    border: 1px solid #e8d6e3;
+    border-radius: 24px;
+    background: white;
+    box-shadow: 0 14px 40px rgba(93, 50, 82, 0.08);
+}
+
+.indra-bienestar-header {
+    padding: 42px;
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        #f5e5f0,
+        #fdf8fb
+    );
+}
+
+.indra-bienestar-header h3 {
+    color: #54334e;
+    font-size: clamp(30px, 4vw, 42px);
+    margin-bottom: 15px;
+}
+
+.indra-bienestar-header p {
+    max-width: 620px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #765d70;
+}
+
+.indra-bienestar-contenido {
+    padding: 40px;
+}
+
+/* CANTIDAD DE SESIONES */
+
+.indra-sesiones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+    color: #744668;
+}
+
+.indra-sesiones strong {
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.indra-sesiones span {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* LISTA DE MASAJES */
+
+.indra-lista {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.indra-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+    border-bottom: 1px solid #f0e1eb;
+}
+
+.indra-cantidad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #f4e5f0;
+    color: #884f79;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.indra-item strong {
+    display: block;
+    color: #493444;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.indra-item small {
+    display: block;
+    margin-top: 5px;
+    color: #8b7887;
+    font-size: 13px;
+}
+
+/* PRECIO DEL PAQUETE */
+
+.indra-precio-pack {
+    margin-top: 40px;
+    padding: 35px 25px;
+    border-radius: 18px;
+    background: #faf0f7;
+    text-align: center;
+}
+
+.indra-precio-pack > span {
+    display: block;
+    color: #8c607f;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.indra-precio-pack > strong {
+    display: block;
+    margin: 12px 0 5px;
+    color: #633c5c;
+    font-size: clamp(38px, 5vw, 55px);
+    font-weight: 700;
+}
+
+.indra-precio-pack p {
+    color: #8b7686;
+    font-size: 13px;
+}
+
+.indra-precio-pack .indra-boton {
+    margin-top: 25px;
+}
+
+/* MEDIOS DE PAGO */
+
+.indra-medios-pago {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 23px;
+    border-radius: 14px;
+    background: #f0e1eb;
+    text-align: center;
+}
+
+.indra-medios-pago i {
+    color: #915783;
+    font-size: 24px;
+}
+
+.indra-medios-pago p {
+    color: #60465a;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* ============================================
+   RESPONSIVE
+============================================ */
+
+@media (max-width: 768px) {
+
+    .indra-cuponeras {
+        padding: 65px 5%;
+    }
+
+    .indra-titulo {
+        margin-bottom: 35px;
+    }
+
+    .indra-bloque {
+        padding: 25px 18px;
+        border-radius: 17px;
+    }
+
+    .indra-bloque-titulo {
+        gap: 13px;
+    }
+
+    .indra-icono {
+        width: 46px;
+        height: 46px;
+        font-size: 20px;
+    }
+
+    .indra-bloque-titulo h3 {
+        font-size: 23px;
+    }
+
+    .indra-tabla th,
+    .indra-tabla td {
+        padding: 15px 14px;
+        font-size: 13px;
+    }
+
+    .indra-bienestar-header {
+        padding: 30px 20px;
+    }
+
+    .indra-bienestar-contenido {
+        padding: 25px 18px;
+    }
+
+    .indra-item {
+        gap: 15px;
+        padding: 17px 5px;
+    }
+
+    .indra-item strong {
+        font-size: 14px;
+    }
+
+    .indra-precio-pack {
+        padding: 28px 18px;
+    }
+
+    .indra-medios-pago {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .indra-boton {
+        width: 100%;
+        text-align: center;
+    }
+}
